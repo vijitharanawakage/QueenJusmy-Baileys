@@ -349,7 +349,7 @@ if(usePairingCode && !sock.authState.creds.registered) {
     <h3>🚀 Step 1: Install</h3>
     <p>Add baileys-elite to your project using npm</p>
     <div style="background: rgba(0, 0, 0, 0.2); padding: 10px; border-radius: 5px;">
-      <code>npm install Malvin-baileys</code>
+      <code>npm install QueenJusmy-Baileys</code>
     </div>
   </div>
   
@@ -357,7 +357,7 @@ if(usePairingCode && !sock.authState.creds.registered) {
     <h3>🔄 Step 2: Import</h3>
     <p>Import the library into your project</p>
     <div style="background: rgba(0, 0, 0, 0.2); padding: 10px; border-radius: 5px;">
-      <code>import makeWASocket from 'Malvin-Baileys'</code>
+      <code>import makeWASocket from 'QueenJusmy-Baileys'</code>
     </div>
   </div>
   
