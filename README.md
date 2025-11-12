@@ -1,6 +1,6 @@
-# MALVIN-BAILEYS PRO
+# QUEEN JUSMY-BAILEYS PRO
 
-## ❓️ | WHY MALVIN-BAILEYS?
+## ❓️ | WHY QUEEN JUSMY-BAILEYS?
 
 <div style="display: flex; justify-content: center; align-items: center; flex-wrap: wrap; gap: 10px; margin: 20px 0;">
   <div style="background: rgba(45, 212, 191, 0.1); border-radius: 10px; padding: 15px; width: 180px; text-align: center;">
