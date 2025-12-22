@@ -1,7 +1,7 @@
 <div align="center">
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=speech&height=300&color=gradient&text=DEW%20BAIYLES&animation=blinking" width="100%">
+  <img src="https://capsule-render.vercel.app/api?type=speech&height=300&color=gradient&text=Queen%20Jusmy&animation=blinking" width="100%">
 </div>
   <br>
   
