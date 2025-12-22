@@ -1,6 +1,34 @@
-# QUEEN JUSMY-BAILEYS PRO
+<div align="center">
 
-## ❓️ | WHY QUEEN JUSMY-BAILEYS?
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=speech&height=300&color=gradient&text=DEW%20BAIYLES&animation=blinking" width="100%">
+</div>
+  <br>
+  
+  <div style="background: linear-gradient(90deg, #6366F1, #3B82F6, #2DD4BF); padding: 8px; border-radius: 10px; margin: 15px 0;">
+    <span style="font-size: 18px; font-weight: bold; color: white;"><b>🔥Ultimate WhatsApp Web API<b></span>
+  </div>
+  
+  ![TypeScript](https://img.shields.io/badge/-%F0%9F%94%B7%20TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white&labelColor=0D1117)
+  ![JavaScript](https://img.shields.io/badge/-%F0%9F%94%B8%20JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=F7DF1E&labelColor=0D1117)
+  ![WhatsApp](https://img.shields.io/badge/-%F0%9F%92%AC%20WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white&labelColor=0D1117)
+  ![NPM](https://img.shields.io/badge/-%F0%9F%93%A6%20npm-CB3837?style=for-the-badge&logo=npm&logoColor=white&labelColor=0D1117)
+</div>
+
+<br>
+
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=60&section=header" width="100%">
+</div>
+
+<div style="border-left: 4px solid #3B82F6; padding-left: 15px; margin: 25px 0;">
+  <h2>⚡️ Supercharged WhatsApp API 🌟</h2>
+  <p><i>Elevate your messaging experience with the most advanced WhatsApp Web API solution available</i></p>
+</div>
+
+---
+
+## ❓️ | WHY QueenJusmy-Baileys?
 
 <div style="display: flex; justify-content: center; align-items: center; flex-wrap: wrap; gap: 10px; margin: 20px 0;">
   <div style="background: rgba(45, 212, 191, 0.1); border-radius: 10px; padding: 15px; width: 180px; text-align: center;">
@@ -37,14 +65,14 @@ or option2
 ### 📂 In package.json:
 ```json
 "dependencies": {
-    "@whiskeysockets/baileys": "github:QueenJusmy-Baileys"
+    "@whiskeysockets/baileys": "github:vijitharanawakage/QueenJusmy-Baileys"
 }
 ```
 
 
 ### ⚙️ Terminal Installation:
 ```bash
-npm install queenjusmy-baileys
+npm install QueenJusmy-Baileys
 ```
 
 ### 🔌 Import:
@@ -65,6 +93,40 @@ const { default: makeWASocket } = require("QueenJusmy-Baileys")
 </div>
 </div>
 </div>
+
+# How To Connect To Whatsapp
+## With QR Code
+```javascript
+const {
+  default: makeWASocket
+} = require('@whiskeysockets/baileys');
+
+const client = makeWASocket({
+  browser: ['Ubuntu', 'Chrome', '20.00.1'],
+  printQRInTerminal: true
+})
+```
+
+## Connect With Number
+```javascript
+const {
+  default: makeWASocket,
+  fetchLatestWAWebVersion
+} = require('@whiskeysockets/baileys');
+
+const client = makeWASocket({
+  browser: ['Ubuntu', 'Chrome', '20.00.1'],
+  printQRInTerminal: false,
+  version: fetchLatestWAWebVersion()
+  // Other options
+});
+
+const number = "9474xxxxxx";
+const code = await client.requestPairingCode(number.trim) /* Use : (number, "YYYYYYYY") for custom-pairing */
+
+console.log("Ur pairing code : " + code)
+```
+
 
 ## ✨ | FEATURE SHOWCASE
 
@@ -326,7 +388,7 @@ await sock.sendMessage(id, { text: "Hello! I'm your AI assistant.", ai: true })
 ```typescript
 if(usePairingCode && !sock.authState.creds.registered) {
     const phoneNumber = await question('Please enter your mobile phone number:\n')
-    const custom = "BOTJUSMY" // must be 8 digits, can be letters or numbers
+    const custom = "QJUSMYMD" // must be 8 digits, can be letters or numbers
     const code = await sock.requestPairingCode(phoneNumber, custom)
     console.log(`Pairing code: ${code?.match(/.{1,4}/g)?.join('-') || code}`)
 }
@@ -393,29 +455,12 @@ if(usePairingCode && !sock.authState.creds.registered) {
 ## 📝 | NOTES
 
 <div style="background: linear-gradient(135deg, rgba(107, 114, 128, 0.05), rgba(75, 85, 99, 0.05)); border-radius: 10px; padding: 20px; margin: 20px 0;">
-  <p>Everything other than the modifications mentioned above remains the same as the original repository. You can check out the original repository at <a href="https://github.com/XdKing2/Malvin-Baileys/" style="color: #60A5FA; text-decoration: none; font-weight: bold;">Mulvin WhiskeySockets Mod</a>.</p>
+  <p>Everything other than the modifications mentioned above remains the same as the original repository. You can check out the original repository at <a href="https://github.com/WhiskeySockets/Baileys" style="color: #60A5FA; text-decoration: none; font-weight: bold;">WhiskeySockets</a>.</p>
 </div>
 
+
+  <p style="font-style: italic; max-width: 600px; margin: 0 auto;">Powered By Mr Sandesh Bhashana - The Ultimate WhatsApp Web API Experience</p> 
+</div>
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer" width="100%">
-</div>
-
-<div align="center" style="margin-top: -40px;">
-  <div style="background: linear-gradient(90deg, #6366F1, #3B82F6, #2DD4BF); -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-size: 24px; font-weight: bold; margin-bottom: 10px;">
-    ⭐ STAR THIS REPOSITORY ⭐
-  </div>
-  
-  <div style="display: flex; justify-content: center; gap: 10px; margin: 20px 0;">
-    <div style="background: rgba(6, 182, 212, 0.1); border-radius: 5px; padding: 8px 15px;">
-      <span style="font-size: 20px;">👨‍💻</span> <span>Developers</span>
-    </div>
-    <div style="background: rgba(16, 185, 129, 0.1); border-radius: 5px; padding: 8px 15px;">
-      <span style="font-size: 20px;">🤖</span> <span>Bot Creators</span>
-    </div>
-    <div style="background: rgba(245, 158, 11, 0.1); border-radius: 5px; padding: 8px 15px;">
-      <span style="font-size: 20px;">🚀</span> <span>Innovators</span>
-    </div>
-  </div>
-  
-  <p style="font-style: italic; max-width: 600px; margin: 0 auto;">Powered BY QueenJusmy-Baileys- The Ultimate WhatsApp Web API Experience</p> 
 </div>
