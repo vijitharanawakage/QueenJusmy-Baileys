@@ -1,9 +1,5 @@
-<div align="center">
 
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=speech&height=300&color=gradient&text=Queen%20Jusmy&animation=blinking" width="100%">
-</div>
-  <br>
+![QUEEN_JUSMY_BAILEYS](https://cardivo-beta.vercel.app/api?name=Queen%20Jusmy%20Baileys&description=Modified%20Version%20Of%20Ofc%20Baileys%20Created%20By%20Mr%20Bhashana%20Sandesh%20&image=https://files.catbox.moe/ctbbq4.webp&backgroundColor=%23718aa1&&fontColor=%23232329&iconColor=%23232329&whatsapp=sandesh_bhashana&github=QueenJusmy-Baileys&pattern=topography&colorPattern=%23eaeaea&opacity=0.2&site=You_can_find_us_on_npm:-queenjusmy-baileys-v1)
   
   <div style="background: linear-gradient(90deg, #6366F1, #3B82F6, #2DD4BF); padding: 8px; border-radius: 10px; margin: 15px 0;">
     <span style="font-size: 18px; font-weight: bold; color: white;"><b>🔥Ultimate WhatsApp Web API<b></span>
