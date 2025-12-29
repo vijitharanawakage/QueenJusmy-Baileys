@@ -54,7 +54,7 @@
 ### 📂 In package.json:
 ```json
 "dependencies": {
-    "QueenJusmy-Baileys": "*"
+    "queenjusmy-baileys-v1": "*"
 }
 ```
 or option2
@@ -68,7 +68,7 @@ or option2
 
 ### ⚙️ Terminal Installation:
 ```bash
-npm install QueenJusmy-Baileys
+npm install queenjusmy-baileys-v1
 ```
 
 ### 🔌 Import:
@@ -77,14 +77,14 @@ npm install QueenJusmy-Baileys
 
 ```typescript
 // ESM 
-import makeWASocket from 'QueenJusmy-Baileys'
+import makeWASocket from 'QueenJuimport makeWASocket from 'queenjusmy-baileys-v1'
 ```
 </div>
 <div style="background: rgba(234, 179, 8, 0.1); border-radius: 5px; padding: 10px; flex: 1;">
 
 ```javascript
 // CommonJS
-const { default: makeWASocket } = require("QueenJusmy-Baileys")
+const { default: makeWASocket } = require("queenjusmy-baileys-v1")
 ```
 </div>
 </div>
@@ -95,7 +95,7 @@ const { default: makeWASocket } = require("QueenJusmy-Baileys")
 ```javascript
 const {
   default: makeWASocket
-} = require('@whiskeysockets/baileys');
+} = require('queenjusmy-baileys-v1');
 
 const client = makeWASocket({
   browser: ['Ubuntu', 'Chrome', '20.00.1'],
@@ -108,7 +108,7 @@ const client = makeWASocket({
 const {
   default: makeWASocket,
   fetchLatestWAWebVersion
-} = require('@whiskeysockets/baileys');
+} = require('queenjusmy-baileys-v1');
 
 const client = makeWASocket({
   browser: ['Ubuntu', 'Chrome', '20.00.1'],
