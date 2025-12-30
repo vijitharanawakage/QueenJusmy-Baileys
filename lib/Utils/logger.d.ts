@@ -1,4 +1,3 @@
-declare const _default: import("pino").Logger<{
-    timestamp: () => string;
-}>;
-export default _default;
+import P from 'pino'
+
+export default P({ timestamp: () => `,"time":"${new Date().toJSON()}"` })
